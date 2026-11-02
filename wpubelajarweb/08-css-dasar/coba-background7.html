@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Backgrounds</title>
+
+    <style>
+        body{
+            min-height: 100vh;
+            font-family: sans-serif;
+            background-color: lightcyan;
+        }
+        .frame{
+            width: 400px;
+            height: 400px;
+            background-color: rgb(250, 203, 240);
+            margin: auto;
+            background-image: url(image/org.png), url(image/bows.png), url(image/batik.jpg);
+            background-size: 300px, 220px, 400px;
+            background-repeat: no-repeat, no-repeat, no-repeat;
+            background-position: center right, center left, center bottom;
+        }
+       
+           h1{
+            text-align: center;
+            color: rgb(190, 10, 100);
+            font-family: sans-serif;
+            font-size: 50px;
+        }
+
+        </style>
+
+</head>
+<body>
+    <h1>MY PROFILE</h1>
+    <div class="frame"></div>
+   
+    
+</body>
+
+
+</html>
