@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+body{
+     font-family: Figtree, Helvetica, sans-serif;
+    color: #e3d6bf;
+     line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Playfair Display", serif;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #1c1517;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  color: #f6eee3;
+}
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+header .genre-tags .tag {
+  display: inline-block;
+  background-color: #d9a5a0;
+  padding: 6px 16px;
+  margin: 0 5px;
+  border-radius: 20px;
+  font-size: 0,9em;
+}
+
+main {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main .profile-card {
+    background-color: #2b1e22;
+    padding: 40px;
+    margin: 30px 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgb(0 0 0/ 0,1);
+    text-align: center;
+}
+
+main .profile-card .artist-photo {
+    width: 300px;
+    height: 300px;
+    border-radius:  50%;
+    border: 5px solid rgb(247, 230, 230);
+    margin-bottom: 30px;
+}
+
+main .profile-card .bio {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+main .profile-card .bio p {
+  margin-bottom: 15px;
+}
+
+main .profile-card .stats {
+  margin-top: 30px;
+  white-space: nowrap;
+}
+
+main .profile-card .stats .stat-item {
+  display: inline-block;
+  width: 200px;
+  padding: 20px;
+  background-color: #d9a5a0;
+  margin: 10px 20px;
+  border-radius: 8px;
+  border: 2px solid #312e2e;
+}
+
+main .profile-card .stats .stat-item .stat-value {
+  font-size: 2em;
+  font-weight: bold;
+  color: #4a1f2e;
+}
+
+main .profile-card .stats .stat-item .stat-label {
+  font-size: 0.9em;
+  color:#4a1f2e ;
+}
+
+main .discography {
+  margin: 50px 0;
+}
+
+main .discography h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #e8e0d5;
+}
+
+main .social-links h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #8d464e;
+}
+
+main .discography .album-list {
+  text-align: center;
+}
+
+main .discography .album-list .album-card {
+  display: inline-block;
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #ddb8c9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgb(0 0 0/ 0,1);
+}
+
+main .discography .album-list .album-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+main .discography .album-list .album-card h3 {
+    font-size: 1.1em;
+    color: #fbe3a6;
+  margin-bottom: 15px;
+}
+
+main .discography .album-list .album-card p {
+    font-size: 1.1em;
+    color: rgb(80, 67, 67);
+  margin-bottom: 15px;
+}
+
+main .discography .album-list .album-card .btn-listen {
+  display: inline-block;
+  background-color: #cf7088;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+main .discography .album-list .album-card .btn-listen:hover {
+  background-color: #ad6e86;
+  transform: translateY(3px) scale(0.95);
+}
+
+main .social-links {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fcd9d9;
+  border-radius: 12px;
+  margin: 30px 0;
+}
+
+main .social-links .social-btn {
+  display: inline-block;
+  background-color: #667c4d;
+  color: white;
+  padding: 12px 30px;
+  margin: 10px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #667c4d;
+  color: white;
+  margin-top: 50px;
+}
+footer p {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #79672e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
