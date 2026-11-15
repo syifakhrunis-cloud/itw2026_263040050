@@ -107,7 +107,7 @@ h3 {
 header {
   text-align: center;
   padding: 40px 20px;
-  background-color: #1c1517;
+  background-color: #94ad8c;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -134,7 +134,7 @@ main {
 }
 
 main .profile-card {
-    background-color: #2b1e22;
+    background-color: #d68787;
     padding: 40px;
     margin: 30px 0;
     border-radius: 12px;
@@ -171,7 +171,7 @@ main .profile-card .stats .stat-item {
   background-color: #d9a5a0;
   margin: 10px 20px;
   border-radius: 8px;
-  border: 2px solid #312e2e;
+  border: 2px solid #a36b6b;
 }
 
 main .profile-card .stats .stat-item .stat-value {
@@ -193,14 +193,14 @@ main .discography h2 {
   text-align: center;
   font-size: 2em;
   margin-bottom: 30px;
-  color: #e8e0d5;
+  color: #131211;
 }
 
 main .social-links h2 {
   text-align: center;
   font-size: 2em;
   margin-bottom: 30px;
-  color: #8d464e;
+  color: #8cc277;
 }
 
 main .discography .album-list {
@@ -212,7 +212,7 @@ main .discography .album-list .album-card {
   width: 300px;
   margin: 10px;
   padding: 20px;
-  background-color: #ddb8c9;
+  background-color: #cca78f;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgb(0 0 0/ 0,1);
 }
@@ -226,19 +226,19 @@ main .discography .album-list .album-card img {
 
 main .discography .album-list .album-card h3 {
     font-size: 1.1em;
-    color: #fbe3a6;
+    color: #302f2c;
   margin-bottom: 15px;
 }
 
 main .discography .album-list .album-card p {
     font-size: 1.1em;
-    color: rgb(80, 67, 67);
+    color: rgb(56, 54, 54);
   margin-bottom: 15px;
 }
 
 main .discography .album-list .album-card .btn-listen {
   display: inline-block;
-  background-color: #cf7088;
+  background-color: #cf7f67;
   color: white;
   padding: 8px 20px;
   border-radius: 20px;
@@ -247,7 +247,7 @@ main .discography .album-list .album-card .btn-listen {
 }
 
 main .discography .album-list .album-card .btn-listen:hover {
-  background-color: #ad6e86;
+  background-color: #c79171;
   transform: translateY(3px) scale(0.95);
 }
 
@@ -269,6 +269,12 @@ main .social-links .social-btn {
   text-decoration: none;
   font-weight: bold;
 }
+
+main .social-links .social-btn:hover {
+  background-color: #7d9768;
+  transform: translateY(3px) scale(0.95);
+}
+
 
 footer {
   text-align: center;
